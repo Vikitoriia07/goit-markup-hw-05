@@ -614,6 +614,7 @@ min-width: 169px;
 height: 56px;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
+font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
@@ -625,7 +626,7 @@ cursor: pointer;
     margin-bottom: 24px;
   height: 16px;
 }
-.checkbox-icon{
+.checkbox-span{
     border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 display: inline-flex;
@@ -640,7 +641,7 @@ fill: transparent;
     fill: #f4f4fd;
     border: none;
 }
-.input-checkbox:checked + .checkbox-icon{
+.input-checkbox:checked + .checkbox-span{
     border: none;
     background-color: #404BBF;
 }
