@@ -454,6 +454,23 @@ gap: 16px;
 .footer-social .social-links{
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+ 
+.subscribe-div {
+}
+.subscribe-label {
+}
+.subscribe-input {
+}
+.subscribe-btn {border-radius: 4px;
+padding-block: 8px;
+padding-inline: 24px;
+width: 165px;
+height: 40px;
+background: #4d5ae5;
+}
+
+
+
 
 /*modal*/
 
@@ -635,15 +652,18 @@ justify-content: center;
 width: 16px;
 height: 16px;
 fill: transparent; 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-checkbox:checked{
     fill: #f4f4fd;
     border: none;
+
 }
-.input-checkbox:checked + .checkbox-span{
-    border: none;
+.input-checkbox:checked + .modal-form-label> .checkbox-span{
     background-color: #404BBF;
+    border: none;
+  fill: #fff;
 }
 .privacy-link{
     color: #4d5ae5;
