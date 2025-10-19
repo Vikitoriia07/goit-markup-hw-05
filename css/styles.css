@@ -518,7 +518,6 @@ position: relative;
 cursor: pointer;
 }
 .icon-send{
-    position: absolute;
     fill: #fff;
     margin-left: 16px;
 }
@@ -640,8 +639,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
  
 }
 .modal-form-icon {
-    stroke: #111111;
     position: absolute;
+    stroke: #111111;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
