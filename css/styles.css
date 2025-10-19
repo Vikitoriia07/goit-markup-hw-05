@@ -470,6 +470,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;  
+margin-bottom: 16px;
 }
 .subscribe-form{
     display: flex;
@@ -483,6 +484,9 @@ color: #fff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em; 
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
 padding-left: 16px;
@@ -496,16 +500,22 @@ color: #fff;
 .subscribe-btn {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content:center;
     border-radius: 4px;
 padding-block: 8px;
 padding-inline: 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
 background-color: #4d5ae5;
-color: #f4f4fd;
 border: none;
 position: relative;
+cursor: pointer;
 }
 .icon-send{
     position: absolute;
@@ -528,7 +538,7 @@ height: 100%;
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
-transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-open{
    opacity: 1;
@@ -599,7 +609,7 @@ margin-bottom: 16px;
 .modal-form {
 }
 .modal-form-field {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 .modal-form-label {
     display: block;
@@ -698,15 +708,11 @@ fill: transparent;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-checkbox:checked{
-    fill: #f4f4fd;
-    border: none;
 
-}
 .input-checkbox:checked + .modal-form-label> .checkbox-span{
     background-color: #404BBF;
     border: none;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 .privacy-link{
     color: #4d5ae5;
