@@ -439,6 +439,7 @@ margin-bottom: 16px;
 .footer-social{
     width: 208px;
 height: 80px;
+margin-right: auto;
 }
 .footer-social .social-links:hover,
 .footer-social .social-links:focus{
@@ -450,6 +451,7 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 16px;
+
 }
 .footer-social .social-links{
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -460,7 +462,7 @@ gap: 16px;
 
 
 .subscribe-div {
- 
+
 }
 
 .subscribe-text{
@@ -569,7 +571,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 width: 24px;
 height: 24px;
 border-radius: 50%;
-fill: #e7e9fc;
+fill: #2e2f42;
 color: #111111;
 border: none;
 display: flex;
@@ -704,6 +706,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 display: inline-flex;
 align-items: center;
 justify-content: center;
+margin-right: 8px;
 width: 16px;
 height: 16px;
 fill: transparent; 
